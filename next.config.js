@@ -2,6 +2,11 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+};
 
-module.exports = nextConfig
+module.exports = {
+  env: {
+    SERVER: process.env.NEXT_PUBLIC_URL,
+  },
+  nextConfig,
+};
