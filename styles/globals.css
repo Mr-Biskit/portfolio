@@ -1,26 +1,18 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Spline+Sans+Mono:wght@500&display=swap")
+  @tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+@layer components {
+  .title {
+    background-image: url("https://media2.giphy.com/media/VbQYnizk1UCPZzedxT/giphy.gif?cid=ecf05e47tj2km6ds5bsp39lwlcjkblrjzvat0pghs0wqzcz2&rid=giphy.gif&ct=g");
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-  body {
-    color: white;
-    background: black;
+
+  .contactInput {
+    @apply outline-none bg-slate-400/10 rounded-sm border-b px-6 py-4 border-[#242424]
+    text-gray-500 placeholder-gray-500 transition-all focus:border-[#610094]/100 focus:text-[#610094]/100;
   }
 }
