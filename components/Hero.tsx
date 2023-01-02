@@ -25,7 +25,7 @@ export default function Hero() {
           viewport={{ once: true }}
           className="text-creme font-spline flex md:items-center md:justify-center rounded-3xl lg:text-[1.5rem] text-[0.88rem]"
         >
-          Hey I'm
+          Hey I am
         </motion.div>
         <div className="text-creme uppercase flex md:items-center md:justify-center rounded-3xl lg:text-[3.00rem] font-block text-[1.67rem]">
           <span>{text}</span>

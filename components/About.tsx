@@ -47,7 +47,7 @@ export default function About() {
           and React Native. In addition to my technical skills, I am also highly
           skilled in user interface design, with a focus on creating beautiful,
           intuitive interfaces for my team.
-          <br /> When I'm not coding, I enjoy cooking delicious food and
+          <br /> When I am not coding, I enjoy cooking delicious food and
           exploring new culinary techniques. <br /> Overall, I am a driven and
           dedicated team member with a strong passion for blockchain and a
           commitment to delivering exceptional results for my team.
