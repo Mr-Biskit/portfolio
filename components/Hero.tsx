@@ -1,6 +1,9 @@
+// Rewrite this code so that the Spline component is loaded lazily
+// and the page is rendered without it until the component is loaded
+// and rendered.
 import React, { Suspense } from "react";
 import AnimatedGif from "./AnimatedGif";
-import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
+import { Cursor, useTypewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion";
 
 const Spline = React.lazy(() => import("@splinetool/react-spline"));
