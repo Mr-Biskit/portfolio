@@ -1,12 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-};
 
 module.exports = {
+  reactStrictMode: true,
+  swcMinify: true,
   env: {
     SERVER: process.env.NEXT_PUBLIC_URL,
   },
-  nextConfig,
 };
