@@ -29,9 +29,9 @@ module.exports = {
         creme: "#FCFDF2",
       },
       backgroundImage: {
-        packtrain: "url(../public/layered-peaks.png)",
-        steps: "url(../public/stacked-steps.png)",
-        blob: "url(../public/blob-bg.png)",
+        packtrain: "url('../public/layeredpeaks.png')",
+        steps: "url('../public/stackedsteps.png')",
+        blob: "url('../public/blobbg.png')",
       },
     },
   },
